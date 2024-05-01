@@ -6,7 +6,7 @@ function Layout({children}: ChildProps) {
     return (
         <main>
             <Navbar/>
-            <div className={'container'}>{children}</div>
+            <div className={'max-w-full mx-auto'}>{children}</div>
             <Footer/>
         </main>)
 }
