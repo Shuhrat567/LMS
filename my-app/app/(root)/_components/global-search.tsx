@@ -11,7 +11,7 @@ function GlobalSearch() {
             <DrawerTrigger>
                 {''}
                 <div
-                    className={"gap-1  py-1 px-3 cursor-pointer rounded-sm transition-colors flex items-center"}>
+                    className={"gap-1 cursor-pointer rounded-full flex items-center"}>
                     <span className={"hidden md:flex"}></span>
                     <Search/>
                 </div>
